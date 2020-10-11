@@ -14,8 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cbac898-2f5c-4e3e-a2ba-5a383bc8c87c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GlobalExceptionHandler/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SetterGetter/Person.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SetterGetter/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GlobalExceptionHandler/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/GlobalExceptionHandler/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <recent name="C:\Users\Ali\Desktop\PHP\OOP" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php (2)">
+  <component name="RunManager" selected="PHP Script.index.php (3)">
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="63342">
       <method v="2" />
     </configuration>
@@ -81,7 +84,7 @@
     <configuration name="index.php (2)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/GlobalExceptionHandler/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="index.php (4)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Iterator/index.php">
+    <configuration name="index.php (3)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/SetterGetter/index.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php (5)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/IO/index.php">
@@ -92,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php (3)" />
         <item itemvalue="PHP Script.index.php (2)" />
         <item itemvalue="PHP Script.index.php (1)" />
         <item itemvalue="PHP Script.index.php" />
         <item itemvalue="PHP Script.index.php (5)" />
-        <item itemvalue="PHP Script.index.php (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +135,7 @@
       <workItem from="1602116513394" duration="74000" />
       <workItem from="1602116622394" duration="693000" />
       <workItem from="1602415164106" duration="2795000" />
-      <workItem from="1602436776076" duration="2015000" />
+      <workItem from="1602436776076" duration="5936000" />
     </task>
     <servers />
   </component>
@@ -179,10 +182,10 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="0" y="42" width="1024" height="737" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1024.779@0.0.1024.779" timestamp="1602109815843" />
-    <state x="318" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1601856569539">
+    <state x="318" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1602451057971">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="318" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1024.779@0.0.1024.779" timestamp="1601856569539" />
+    <state x="318" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1024.779@0.0.1024.779" timestamp="1602451057971" />
     <state x="361" y="208" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1602416320807">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -199,22 +202,22 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="200" y="231" key="FileChooserDialogImpl/0.0.1024.779@0.0.1024.779" timestamp="1602116591855" />
-    <state width="981" height="267" key="GridCell.Tab.0.bottom" timestamp="1602438793088">
+    <state width="981" height="267" key="GridCell.Tab.0.bottom" timestamp="1602451543685">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="267" key="GridCell.Tab.0.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602438793088" />
-    <state width="981" height="267" key="GridCell.Tab.0.center" timestamp="1602438793088">
+    <state width="981" height="267" key="GridCell.Tab.0.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602451543685" />
+    <state width="981" height="267" key="GridCell.Tab.0.center" timestamp="1602451543684">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="267" key="GridCell.Tab.0.center/0.0.1024.779@0.0.1024.779" timestamp="1602438793088" />
-    <state width="981" height="267" key="GridCell.Tab.0.left" timestamp="1602438793088">
+    <state width="981" height="267" key="GridCell.Tab.0.center/0.0.1024.779@0.0.1024.779" timestamp="1602451543684" />
+    <state width="981" height="267" key="GridCell.Tab.0.left" timestamp="1602451543684">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="267" key="GridCell.Tab.0.left/0.0.1024.779@0.0.1024.779" timestamp="1602438793088" />
-    <state width="981" height="267" key="GridCell.Tab.0.right" timestamp="1602438793088">
+    <state width="981" height="267" key="GridCell.Tab.0.left/0.0.1024.779@0.0.1024.779" timestamp="1602451543684" />
+    <state width="981" height="267" key="GridCell.Tab.0.right" timestamp="1602451543684">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="267" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1602438793088" />
+    <state width="981" height="267" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1602451543684" />
     <state width="981" height="244" key="GridCell.Tab.1.bottom" timestamp="1602109862998">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -247,22 +250,22 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="244" key="GridCell.Tab.2.right/0.0.1024.779@0.0.1024.779" timestamp="1601736483988" />
-    <state x="320" y="113" key="NewPhpClassDialog" timestamp="1602416300665">
+    <state x="320" y="113" key="NewPhpClassDialog" timestamp="1602450920559">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="320" y="113" key="NewPhpClassDialog/0.0.1024.779@0.0.1024.779" timestamp="1602416300665" />
-    <state x="348" y="314" key="NewPhpFileDialog" timestamp="1602436923874">
+    <state x="320" y="113" key="NewPhpClassDialog/0.0.1024.779@0.0.1024.779" timestamp="1602450920559" />
+    <state x="348" y="314" key="NewPhpFileDialog" timestamp="1602450898857">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="348" y="314" key="NewPhpFileDialog/0.0.1024.779@0.0.1024.779" timestamp="1602436923874" />
+    <state x="348" y="314" key="NewPhpFileDialog/0.0.1024.779@0.0.1024.779" timestamp="1602450898857" />
     <state x="21" y="35" key="SettingsEditor" timestamp="1602116654987">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="21" y="35" key="SettingsEditor/0.0.1024.779@0.0.1024.779" timestamp="1602116654987" />
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602417467536">
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2" timestamp="1602438930052">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602417467536" />
+    <state x="105" y="123" key="Vcs.Push.Dialog.v2/0.0.1024.779@0.0.1024.779" timestamp="1602438930052" />
     <state x="93" y="93" width="838" height="594" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1602116465696">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
