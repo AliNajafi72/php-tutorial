@@ -1,0 +1,24 @@
+<?php
+
+
+class DatabaseConnection extends PDO
+{
+    private static $_intance = null;
+
+    private function __construct()
+    {
+
+    }
+
+    public static function getPDOConnectionInstance() : PDO
+    {
+        if (!(self::$_intance instanceof DatabaseConnection)) {
+            self::$_intance = new PDO(
+                'mysql:host=localhost;dbname=maktab39',
+                'root',
+                'Ali721100'
+            );
+        }
+        return self::$_intance;
+    }
+}
