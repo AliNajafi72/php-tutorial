@@ -1,7 +1,7 @@
 <?php
 
 
-class DatabaseConnection extends PDO
+class DatabaseConnectionSingleton extends PDO
 {
     private static $_intance = null;
 

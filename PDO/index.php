@@ -8,7 +8,7 @@ define('UPDATE_NAME', 'UPDATE users SET name=:name WHERE name=:fname');
 $connection = null;
 
 try {
-    $connection = DatabaseConnection::getPDOConnectionInstance();
+    $connection = DatabaseConnectionSingleton::getPDOConnectionInstance();
     $stmt = $connection->prepare(SELECT_NAMES);
     $stmt->bindValue(':name', 'Ali Najafi');
     $stmt->execute();
