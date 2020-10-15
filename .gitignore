@@ -2,3 +2,5 @@
 /PHPMailer/vendor/
 /HelloWorld/vendor/
 /Doctrine/vendor/
+/cURL/.env
+/cURL/vendor/

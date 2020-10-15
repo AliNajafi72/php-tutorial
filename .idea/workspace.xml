@@ -14,11 +14,126 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cbac898-2f5c-4e3e-a2ba-5a383bc8c87c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StoredProcedures/DatabaseConnectionSingleton.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StoredProcedures/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/AddContactToCustomerClub.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/CustomerClubInsertAndSendMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/CustomerClubSend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/CustomerClubSendToCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/EditCustomerClubContact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCredit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCustomerClubCategories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCustomerClubContactsByCategoryIdByPageId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCustomerClubContactsByPageId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCustomerClubSentMessagesByLastId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetCustomerClubSentMessagesByPageId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetSmsLines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/GetToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/ReceiveMessageByBatchKeyAndPageId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/ReceiveMessageByDate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/ReceiveMessageByLastId.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/SendMessage.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/SentMessageResponseByDate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/SentMessageResponseById.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/UltraFastSend.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/Classes/VerificationCode.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/GetToken.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/SMS.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/graham-campbell/result-type/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/graham-campbell/result-type/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/graham-campbell/result-type/src/Error.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/graham-campbell/result-type/src/Result.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/graham-campbell/result-type/src/Success.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/src/PhpOption/LazyOption.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/src/PhpOption/None.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/src/PhpOption/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/phpoption/phpoption/src/PhpOption/Some.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-ctype/Ctype.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-ctype/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-ctype/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-ctype/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-ctype/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/Mbstring.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/Resources/unidata/lowerCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/Resources/unidata/titleCaseRegexp.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/Resources/unidata/upperCase.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-mbstring/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/Php80.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/Resources/stubs/Stringable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/Resources/stubs/UnhandledMatchError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/Resources/stubs/ValueError.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/symfony/polyfill-php80/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/phpstan.src.neon.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Dotenv.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Exception/ExceptionInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Exception/InvalidEncodingException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Exception/InvalidFileException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Exception/InvalidPathException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Exception/ValidationException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Loader/Loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Loader/LoaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Loader/Resolver.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/Entry.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/EntryParser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/Lexer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/Lines.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/Parser.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/ParserInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Parser/Value.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/AdapterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ApacheAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ArrayAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/EnvConstAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/GuardedWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ImmutableWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiReader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/MultiWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/PutenvAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReaderInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ReplacingWriter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/ServerConstAdapter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/Adapter/WriterInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/AdapterRepository.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/RepositoryBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Repository/RepositoryInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/File/Paths.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/File/Reader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/FileStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/StoreBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/StoreInterface.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Store/StringStore.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Util/Regex.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Util/Str.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cURL/vendor/vlucas/phpdotenv/src/Validator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PHP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PHP.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/DatabaseConnection.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/DatabaseConnection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PDO/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/PDO/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/HelloWorld/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StoredProcedures/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/StoredProcedures/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,31 +175,29 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/StoredProcedures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cURL" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ali\Desktop\PHP\StoredProcedures" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ali\Desktop\PHP\IO\img" />
       <recent name="C:\Users\Ali\Desktop\PHP\DataTypes\OperationClasses" />
       <recent name="C:\Users\Ali\Desktop\PHP\Namespace" />
       <recent name="C:\Users\Ali\Desktop\PHP\OOP" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali\Desktop\PHP\cURL" />
+      <recent name="C:\Users\Ali\Desktop\PHP\StoredProcedures" />
+    </key>
   </component>
-  <component name="RunManager" selected="PHP Script.index.php (4)">
+  <component name="RunManager" selected="PHP Script.index.php">
     <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="63342">
       <method v="2" />
     </configuration>
-    <configuration name="index.php (1)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exception/index.php">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.php (2)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/GlobalExceptionHandler/index.php">
+    <configuration name="GetToken.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/cURL/GetToken.php">
       <method v="2" />
     </configuration>
     <configuration name="index.php (3)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/SetterGetter/index.php">
@@ -93,16 +206,19 @@
     <configuration name="index.php (4)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PDO/index.php">
       <method v="2" />
     </configuration>
-    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/PHPMailer/index.php">
+    <configuration name="index.php (5)" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/StoredProcedures/index.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/cURL/index.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.index.php" />
+        <item itemvalue="PHP Script.GetToken.php" />
+        <item itemvalue="PHP Script.index.php (5)" />
         <item itemvalue="PHP Script.index.php (4)" />
         <item itemvalue="PHP Script.index.php (3)" />
-        <item itemvalue="PHP Script.index.php (2)" />
-        <item itemvalue="PHP Script.index.php (1)" />
-        <item itemvalue="PHP Script.index.php" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +256,13 @@
       <workItem from="1602415164106" duration="2795000" />
       <workItem from="1602436776076" duration="7027000" />
       <workItem from="1602499648253" duration="4720000" />
-      <workItem from="1602670406502" duration="1298000" />
+      <workItem from="1602670406502" duration="4292000" />
+      <workItem from="1602782997549" duration="17000" />
+      <workItem from="1602783268600" duration="69000" />
+      <workItem from="1602783405091" duration="21000" />
+      <workItem from="1602783561720" duration="6000" />
+      <workItem from="1602783672163" duration="4805000" />
+      <workItem from="1602790441095" duration="8777000" />
     </task>
     <servers />
   </component>
@@ -203,42 +325,46 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="289" y="303" width="445" height="398" key="ComposerInitDialogKey/0.0.1024.779@0.0.1024.779" timestamp="1601641046783" />
+    <state x="93" y="93" width="838" height="594" key="DiffContextDialog" timestamp="1602675065246">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="93" y="93" width="838" height="594" key="DiffContextDialog/0.0.1024.779@0.0.1024.779" timestamp="1602675065246" />
     <state x="200" y="231" key="FileChooserDialogImpl" timestamp="1602116591855">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state x="200" y="231" key="FileChooserDialogImpl/0.0.1024.779@0.0.1024.779" timestamp="1602116591855" />
-    <state width="981" height="244" key="GridCell.Tab.0.bottom" timestamp="1602505245146">
+    <state width="981" height="509" key="GridCell.Tab.0.bottom" timestamp="1602799220214">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.0.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.0.center" timestamp="1602505245146">
+    <state width="981" height="509" key="GridCell.Tab.0.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602799220214" />
+    <state width="981" height="509" key="GridCell.Tab.0.center" timestamp="1602799220214">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.0.center/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.0.left" timestamp="1602505245146">
+    <state width="981" height="509" key="GridCell.Tab.0.center/0.0.1024.779@0.0.1024.779" timestamp="1602799220214" />
+    <state width="981" height="509" key="GridCell.Tab.0.left" timestamp="1602799220214">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.0.left/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.0.right" timestamp="1602505245146">
+    <state width="981" height="509" key="GridCell.Tab.0.left/0.0.1024.779@0.0.1024.779" timestamp="1602799220214" />
+    <state width="981" height="509" key="GridCell.Tab.0.right" timestamp="1602799220214">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.1.bottom" timestamp="1602505245146">
+    <state width="981" height="509" key="GridCell.Tab.0.right/0.0.1024.779@0.0.1024.779" timestamp="1602799220214" />
+    <state width="981" height="244" key="GridCell.Tab.1.bottom" timestamp="1602798147633">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.1.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.1.center" timestamp="1602505245146">
+    <state width="981" height="244" key="GridCell.Tab.1.bottom/0.0.1024.779@0.0.1024.779" timestamp="1602798147633" />
+    <state width="981" height="244" key="GridCell.Tab.1.center" timestamp="1602798147633">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.1.center/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.1.left" timestamp="1602505245146">
+    <state width="981" height="244" key="GridCell.Tab.1.center/0.0.1024.779@0.0.1024.779" timestamp="1602798147633" />
+    <state width="981" height="244" key="GridCell.Tab.1.left" timestamp="1602798147632">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.1.left/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
-    <state width="981" height="244" key="GridCell.Tab.1.right" timestamp="1602505245146">
+    <state width="981" height="244" key="GridCell.Tab.1.left/0.0.1024.779@0.0.1024.779" timestamp="1602798147632" />
+    <state width="981" height="244" key="GridCell.Tab.1.right" timestamp="1602798147633">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state width="981" height="244" key="GridCell.Tab.1.right/0.0.1024.779@0.0.1024.779" timestamp="1602505245146" />
+    <state width="981" height="244" key="GridCell.Tab.1.right/0.0.1024.779@0.0.1024.779" timestamp="1602798147633" />
     <state width="981" height="244" key="GridCell.Tab.2.bottom" timestamp="1601736483988">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
@@ -255,14 +381,18 @@
       <screen x="0" y="0" width="1024" height="779" />
     </state>
     <state width="981" height="244" key="GridCell.Tab.2.right/0.0.1024.779@0.0.1024.779" timestamp="1601736483988" />
-    <state x="320" y="113" key="NewPhpClassDialog" timestamp="1602501084922">
+    <state x="320" y="113" key="NewPhpClassDialog" timestamp="1602798726839">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="320" y="113" key="NewPhpClassDialog/0.0.1024.779@0.0.1024.779" timestamp="1602501084922" />
-    <state x="348" y="314" key="NewPhpFileDialog" timestamp="1602670762504">
+    <state x="320" y="113" key="NewPhpClassDialog/0.0.1024.779@0.0.1024.779" timestamp="1602798726839" />
+    <state x="348" y="314" key="NewPhpFileDialog" timestamp="1602675062253">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
-    <state x="348" y="314" key="NewPhpFileDialog/0.0.1024.779@0.0.1024.779" timestamp="1602670762504" />
+    <state x="348" y="314" key="NewPhpFileDialog/0.0.1024.779@0.0.1024.779" timestamp="1602675062253" />
+    <state x="356" y="93" key="RollbackChangesDialog" timestamp="1602791553400">
+      <screen x="0" y="0" width="1024" height="779" />
+    </state>
+    <state x="356" y="93" key="RollbackChangesDialog/0.0.1024.779@0.0.1024.779" timestamp="1602791553400" />
     <state x="21" y="35" key="SettingsEditor" timestamp="1602116654987">
       <screen x="0" y="0" width="1024" height="779" />
     </state>
